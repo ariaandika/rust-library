@@ -34,8 +34,8 @@ Wrapper type may implement:
 Collection type may implement:
 
 - Iterator, required
-- FromIterator, Extend, Index, when appropriate
-- IntoIterator, ExactSizeIterator, FusedIterator, for quality of life
+- IntoIterator, when appropriate
+- Extend, Index, FromIterator, ExactSizeIterator, FusedIterator, for quality of life
 
 Error type must implement:
 
@@ -55,7 +55,7 @@ Other traits:
 
 Declaring trait may be implemented to various foreign type.
 
-Common trait may be implemented to:
+Common trait may be implemented for:
 
 - unit, bool, integer, float, char, str, slice
 - array, tuple
