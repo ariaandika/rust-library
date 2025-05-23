@@ -4,6 +4,7 @@ Common pattern to create an application.
 
 1. [User Flow](#user-flow)
 2. [Pagination](#pagination)
+3. [Wireframe](#wireframe)
 
 ## User Flow
 
@@ -18,7 +19,10 @@ Common pattern contains create read update and delete.
 
 Other pattern contains list, add, detail, edit, remove.
 
-## Pagination
+## Wireframe
+
+Wireframe is designing interface skeleton with only text, gray boxes, and
+manually drawn icons when necessary.
 
 Group all features into pages.
 
@@ -30,9 +34,8 @@ page.
 Other pattern is to have all list, add, detail, edit, and remove in one page
 represented as modal.
 
-## Wireframe
+## Design System
 
-Wireframe is designing interface skeleton with only text, gray boxes, and
-manually drawn icons when necessary.
-
+Design system is specifying parts which will be used to build the actual
+webpage.
 
